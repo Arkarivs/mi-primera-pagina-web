@@ -3,35 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Mi primera página</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    #mensaje {
-      margin-top: 20px;
-      font-size: 18px;
-      color: green;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>¡Hola! Soy Arkarivs</h1>
+  <h1 class="flicker">¡Hola! Soy Arkarivs</h1>
   <p>Estoy aprendiendo programación para crear videojuegos.</p>
   <button id="miBoton">Haz clic aquí</button>
 
   <div id="mensaje"></div>
 
-  <script>
-    document.getElementById("miBoton").addEventListener("click", function() {
-      document.getElementById("mensaje").textContent = "¡Bienvenido a mi primera página web!";
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
